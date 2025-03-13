@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int arr[3];  // Deklarasi variable global array dengan panjang 20 dan arr
+int arr[5];  // Deklarasi variable global array dengan panjang 20 dan arr
 int n;  // Deklarasi variable global n untuk menyimpan elemen pada array
 
 void input(){  // Prosedur input
@@ -10,7 +10,7 @@ void input(){  // Prosedur input
     while (true){
         cout << "Masukan banyaknya elemen pada array ";
         cin >> n;
-        if (n <= 3){
+        if (n <= 5){
             break;
         }
         else {
@@ -44,8 +44,8 @@ void bubbleSortArray(){
 }
 
 
-    }
-}   
+
+
 
 int main(){
     input();
